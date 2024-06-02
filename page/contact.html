@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link  rel="stylesheet" href="./../css/Body.css" type="text/css">
+    <link rel="stylesheet" href="./../css/Other.css" type="text/css">
+    <link rel="stylesheet" href="./../css/Contact_Form.css">
+    <link href="./../css/Header_Footer.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yrsa%3A300%2C400%2C500"/>
+  </head>
+<body>
+  <header>
+    <div class="navigation-2 navi">
+      <div class="navigation-items">
+        <a href="./index.html" class="logo-link navi-brand"><img src="./../image/Logo/Our_Logo.png" alt="" class="image-34"></a>
+        <div class="navigation-wrap ">
+          <nav role="navigation" class="navigation-items navi-menu">
+            <a href="index.html" class="navigation-item navi-link">home</a>
+            <a href="products.html" class="navigation-item navi-link">Products</a>
+            <a href="about.html" class="navigation-item navi-link">about us</a>
+            <a href="location.html" class="navigation-item hide-in-mobile navi-link">location</a>
+            <a href="contact.html" aria-current="page" class="navigation-item hide-in-mobile navi-link">Contact us</a>
+          </nav>  
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="Contact_banner"></section>
+  <section>
+    <div class="contact_text"><strong class="bold-contact-text">Got a Question? Need Help?<br></strong><span class="team-text">contact our team</span></div>
+  </section>
+  <div class="watchgoods-form">
+    <form action="contact.html" id="Contact_form"  onsubmit="" method="post">
+      <div>
+        <label for="name" class="field-label">Full Name</label>
+        <input type="text" class="text-field watchgoods-input" maxlength="256" placeholder="Enter your name" id="name">
+        <span id="nameerror" class="warning"></span>
+      </div>
+      <div>
+        <label for="email" class="field-label">Email</label>
+        <input type="email" class="text-field watchgoods-input" maxlength="256" placeholder="Enter your email" id="email">
+        <span id="emailerror" class="warning"></label>
+      </div>
+      <div>
+        <label for="region" class="field-label" >Country / Region</label>
+        <input type="text" class="text-field watchgoods-input" maxlength="256" placeholder="Enter your region" id="region">
+        <span id="regionerror" class="warning"></span>
+      </div>
+      <div>
+        <label for="message" class="field-label">Message</label>
+        <textarea placeholder="Enter your message" maxlength="5000" id="message" class="messagebox full area watchgoods-input"></textarea>
+        <span id="messageerror" class="warning"></span>
+      </div>
+      <div>
+        <label class="watchgoods-checkbox checkbox-field">
+        <input type="checkbox" id="checkbox" class="watchgoods-checkbox-input">
+        <span class="checkbox-label" for="checkbox">Agree, to receive a copy of the message</span>
+      </div>
+      <div>
+        <span id="checkboxerror" class="warning"></span>
+      </div>
+      <div>
+        <button type="submit" onclick="Validation(event)" class="submit-button general-button" id="submit">Submit Message</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="footer-container watchgoods-container">
+        <div class="watchgoods-layout-grid footer-grid">
+          <div class="footer-logo-block">
+            <a href="./index.html" class="footer-logo navi-brand"><img src="./../image/Logo/Our_Logo_White.png" alt="" class="image-20"></a>
+            <div class="paragraph-5 small">&copy;2023 WatcHGoods. All right reserve</div>
+          </div>
+          <div class="footer-links-container">
+            <h5 class="footer-header">Company</h5>
+            <a href="./index.html" class="footer-link">Home</a>
+            <a href="./products.html" class="footer-link">Products</a>
+            <a href="./location.html" class="footer-link">Locations</a>
+          </div>
+          <div class="footer-links-container">
+            <h5 class="footer-header">RESOURCES</h5>
+            <a href="./contact.html" class="footer-link">Contact us</a>
+            <a href="./about.html" class="footer-link">About us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./../js/Message.js"></script>
+</body>
+</html>
