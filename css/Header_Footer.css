@@ -1,0 +1,394 @@
+/* Header section */
+.navigation-2 {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    padding: 30px 50px;
+    display: flex;
+}
+
+.navigation-items {
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo-link {
+    z-index: 1;
+}
+  
+.logo-link:hover {
+    opacity: .8;
+}
+  
+.logo-link:active {
+    opacity: .7;
+}
+    
+.image-34 {
+    max-width: 20vw;
+}
+
+.navigation-wrap {
+    align-items: center;
+    display: flex;
+}
+
+.navigation-item {
+    width: 136px;
+    opacity: 1;
+    color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: Yrsa, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.navigation-item:hover {
+    opacity: .8;
+    color: #fff;
+    background-color: #000;
+}
+  
+.navigation-item:active {
+    opacity: .8;
+}
+  
+.navigation-item.watchgoods--current {
+    opacity: 1;
+    color: #1a1b1f;
+    text-align: center;
+    font-family: Yrsa, sans-serif;
+    font-weight: 700;
+}
+  
+.navigation-item.watchgoods--current:hover {
+    opacity: .8;
+    color: #fff;
+    background-color: #000;
+}
+  
+.navigation-item.watchgoods--current:active {
+    opacity: .7;
+    color: #32343a;
+}
+  
+@media screen and (max-width: 991px) {
+    .navigation-2 {
+        padding: 25px 30px;
+    }
+
+    .navigation-items {
+        background-color: #fff;
+        align-items: center;
+        display: flex;
+    }
+
+    .logo-link.watchgoods--current {
+        flex: 1;
+    }
+
+    .image-34 {
+        max-width: 30vw;
+    }
+
+    .navigation-item {
+        width: 10vw;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 12px;
+        transition: background-color .4s, opacity .4s, color .4s;
+    }
+    
+    .navigation-item:hover {
+        background-color: #000;
+    }
+    
+    .navigation-item:active {
+        background-color: #eef0f3;
+    }
+    
+    .navigation-item.watchgoods--current {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .navigation-2 {
+        padding: 20px 30px;
+    }
+
+    .logo-link {
+        padding-left: 0;
+    }
+
+    .image-34 {
+        max-width: 80%;
+    }
+
+    .navigation-wrap {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navigation-item {
+        width: 16vw;
+    }
+    
+    .navigation-item.watchgoods--current {
+        display: block;
+    }
+    
+    .navigation-item.hide-in-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .navigation-2 {
+        padding: 0 20px;
+    }
+
+    .navigation-item {
+        font-size: 2vw;
+    }
+    
+    .navigation-item.watchgoods--current {
+        width: 16vw;
+    }
+}
+
+/* Footer section */
+.footer-logo {
+    margin-bottom: 20px;
+}
+  
+.footer-links-container {
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-logo-block {
+  max-width: 650px;
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.footer-header {
+  color: #99a4af;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer-grid {
+  grid-template-rows: auto;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1230px;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 50px;
+  display: block;
+}
+
+.footer-link {
+  color: #626a72;
+  cursor: pointer;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+  display: block;
+}
+
+.footer-link:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.footer-link.watchgoods--current {
+  opacity: 1;
+}
+
+.footer {
+  z-index: 0;
+  background-color: #04293a;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  position: relative;
+}
+
+.footer-top-title {
+  height: 60px;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.footer-column {
+  width: 90%;
+}
+
+.footer-column.add-top-margin {
+  margin-top: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.footer-column.no-top-margin {
+  position: static;
+  top: 0;
+}
+
+
+.paragraph-5.small {
+  opacity: .75;
+  color: gray;
+  margin-bottom: 6px;
+  font-size: 15px;
+  line-height: 1.4em;
+}
+
+@media screen and (max-width: 991px) {
+
+    .footer-links-container {
+        flex-direction: column;
+        align-items: flex-start;
+        display: flex;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 2fr 1fr 1fr .8fr;
+    }
+    
+    .footer-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-top-title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer-top-title.categories {
+        display: none;
+    }
+
+    .image-20 {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .footer-logo {
+        padding-left: 0;
+    }
+    
+    .footer-links-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 6px;
+        display: flex;
+    }
+
+    .footer-logo-block {
+        margin-bottom: 3px;
+    }
+    
+    .footer-header {
+        font-size: 13px;
+    }
+    
+    .footer-grid {
+        grid-template-columns: 1fr .8fr;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+    }
+    
+    .footer-link {
+        font-size: 13px;
+    }
+
+    .footer-top-title {
+        position: static;
+    }
+    
+    .footer-column {
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .footer-column.no-top-margin {
+        margin-top: 0;
+    }
+    
+    .paragraph-5 {
+        font-size: 15px;
+    }
+    
+    .paragraph-5.small {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+
+    .footer-logo-block {
+        margin-bottom: -14px;
+    }
+    
+    .footer-header {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    
+    .footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .footer-link {
+        font-size: 3vw;
+        line-height: 3vw;
+        transition-duration: .3s;
+    }
+
+    .footer-top-title {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .paragraph-5.small {
+        font-size: 3vw;
+    }
+    
+}

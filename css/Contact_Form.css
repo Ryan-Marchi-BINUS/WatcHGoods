@@ -1,0 +1,163 @@
+/* Contact banner */
+
+.Contact_banner {
+  min-height: 400px;
+  background-image: url('../image/Page_Banner/Contact_Us_Banner.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.contact_text {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 0;
+  font-size: 30px;
+  position: static;
+}
+
+.bold-contact-text {
+  text-align: center;
+  font-family: Yrsa, sans-serif;
+  line-height: 30px;
+}
+
+.team-text {
+  font-family: Yrsa, sans-serif;
+  font-size: 25px;
+}
+
+/* Contact banner */
+
+
+/* Form */
+
+.text-field {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field-label {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Yrsa, sans-serif;
+  font-size: 20px;
+}
+
+.warning{
+  font-family: Yrsa, sans-serif;
+  padding-left: 10%;
+  font-size: 17px;
+  color: red;
+}
+
+
+.checkbox-field {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.messagebox.full.area {
+  width: 80%;
+  height: auto;
+  border-color: #000;
+  margin: 0 auto 20px;
+  padding-bottom: 90px;
+  font-family: Yrsa, sans-serif;
+  overflow: visible;
+  font-size: 20px;
+}
+
+.watchgoods-checkbox {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  display: block;
+}
+
+.watchgoods-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.checkbox-label {
+  color: #000;
+  font-family: Yrsa, sans-serif;
+  font-size: 16px;
+}
+
+.submit-button {
+  width: 212px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Yrsa, sans-serif;
+  display: block;
+  font-size: 15px;
+}
+
+.submit-button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Form */
+
+
+/* Responsive Setting*/
+
+@media screen and (max-width: 479px) {
+  .submit-button {
+    width: 72px;
+    font-size: 12px;
+  }
+  /* start from */
+  .contact_text {
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    overflow: visible;
+  }
+  .bold-contact-textt {
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .team-text {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contact_text {
+    text-align: center;
+    object-fit: fill;
+    margin-top: 25px;
+    padding-top: 0;
+    font-size: 30px;
+    display: block;
+    position: static;
+    overflow: visible;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact_text {
+    margin-top: 25px;
+  }
+  .bold-contact-text {
+    text-align: center;
+    font-family: Yrsa, sans-serif;
+    line-height: 30px;
+  }
+  .team-text {
+    font-size: 22px;
+  }
+}
+
+/* Responsive Setting*/

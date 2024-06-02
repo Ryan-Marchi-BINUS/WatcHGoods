@@ -1,0 +1,218 @@
+/* This The general Setting for all the page*/
+
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* use for the submit button for contact */
+
+.general-button {
+  padding: 9px 15px;
+  color: white;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* use for the submit button for contact */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 38px;
+  line-height: 44px;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+h6 {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Form */
+
+.watchgoods-form {
+  margin: 0 0 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.watchgoods-input,
+.watchgoods-select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333333;
+
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.watchgoods-input:focus,
+.watchgoods-select:focus {
+  border-color: #3898EC;
+  outline: 0;
+}
+
+/* Form */
+
+
+
+/* Collum use on about us and product */
+
+.watchgoods-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.watchgoods-container:after {
+  clear: both;
+}
+.watchgoods-container .watchgoods-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.watchgoods-row:before,
+.watchgoods-row:after {
+  content: " ";
+  display: table;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+}
+.watchgoods-row:after {
+  clear: both;
+}
+
+.watchgoods-col {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.watchgoods-col-1 {
+  width: 8.33333333%;
+}
+.watchgoods-col-2 {
+  width: 16.66666667%;
+}
+.watchgoods-col-3 {
+  width: 25%;
+}
+.watchgoods-col-4 {
+  width: 33.33333333%;
+}
+.watchgoods-col-5 {
+  width: 41.66666667%;
+}
+.watchgoods-col-6 {
+  width: 50%;
+}
+.watchgoods-col-7 {
+  width: 58.33333333%;
+}
+.watchgoods-col-8 {
+  width: 66.66666667%;
+}
+.watchgoods-col-9 {
+  width: 75%;
+}
+.watchgoods-col-10 {
+  width: 83.33333333%;
+}
+.watchgoods-col-11 {
+  width: 91.66666667%;
+}
+.watchgoods-col-12 {
+  width: 100%;
+}
+
+/* Collum use on about us and product */
+
+
+
+@media screen and (max-width: 991px) {
+  .watchgoods-container {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .watchgoods-row,
+  .watchgoods-container .watchgoods-row {
+    margin-left: 0;
+    margin-right: 0;
+  }  
+  .navi-brand {
+    padding-left: 10px;
+  }
+  .watchgoods-col {
+    width: 100%;
+    left: auto;
+    right: auto;
+  }
+}
+
+.navi-link {
+  text-decoration: none;
+  padding: 20px;
+}
